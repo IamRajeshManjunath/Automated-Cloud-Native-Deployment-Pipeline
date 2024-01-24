@@ -21,7 +21,7 @@ pipeline {
         
         stage('Cloning Git') {
             steps {
-                git branch: 'main', url: 'https://github.com/IamRajeshManjunath/docker_nodejs'      
+                git branch: 'main', url: 'https://github.com/IamRajeshManjunath/Automated-Cloud-Native-Deployment-Pipeline/tree/main/Docker_nodejs'      
             }
         }
   
