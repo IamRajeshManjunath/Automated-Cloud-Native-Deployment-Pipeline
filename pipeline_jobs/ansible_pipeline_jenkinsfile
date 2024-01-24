@@ -6,7 +6,7 @@ pipeline{
   stages{
     stage('Git Checkout'){
       steps{
-       git branch: 'main', url: 'https://github.com/IamRajeshManjunath/demo-ec2'
+       git branch: 'main', url: 'https://github.com/IamRajeshManjunath/Automated-Cloud-Native-Deployment-Pipeline/tree/main/Terraform_ansible'
       }
     } 
     stage('terraform init'){
